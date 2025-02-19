@@ -17,19 +17,19 @@ This project is divided into two parts:
 
 ## Key Findings  
 - Transfer learning with fine-tuning of the base model, adjusting learning rates, modifying batch size, tuning hyperparameters, and resizing input images significantly improves model performance (Figures 2 and 3). Combining these techniques with L2 regularization and dropout can also help mitigate overfitting (Figure 4).
-- **AutoGluon's AutoMM** achieved **99.03% accuracy** on the test dataset with just 30 minutes of training, ranking within the top 8% of models on CIFAR-10 and only 0.47% below the best publicly available model. 
+- **AutoGluon's AutoMM** achieved **99.03% accuracy** on the test dataset with just 30 minutes of training. Compared to publicly available models, AutoMM ranks within the top 8% of models on CIFAR-10 and is only 0.47% below the best model. 
 
 <p align="center">
 <img src="https://github.com/alexhubbe/image_classification/blob/main/reports/images/mobilenet_summary.png" width="100%" alt="Mobilenet model summary">
 </p>
 
-Figure 2: MobileNet models summary diagram. For more details, consult the section [Models](https://github.com/alexhubbe/convolutional_neural_networks/blob/main/notebooks/01_ah_model.ipynb). 
+Figure 2: MobileNet models summary diagram. 
 
 <p align="center">
 <img src="https://github.com/alexhubbe/image_classification/blob/main/reports/images/nasnetmobile_summary%20.png" width="70%" alt="NasNetMobile model summary">
 </p>  
 
-Figure 3: NasNetMobile models summary diagram. For more details, consult the section [Models](https://github.com/alexhubbe/convolutional_neural_networks/blob/main/notebooks/01_ah_model.ipynb). 
+Figure 3: NasNetMobile models summary diagram.
 
 <div style="display: flex; justify-content: center; gap: 20px;">
     <img src="https://github.com/alexhubbe/image_classification/blob/main/reports/images/overfit.jpg" width="48%" alt="Train Validation loss curve">
@@ -43,11 +43,13 @@ Below is a succinct description of the steps taken in this project.
 
 ## [Image Classification with Transfer Learning](https://github.com/alexhubbe/convolutional_neural_networks/blob/main/notebooks/01_ah_model.ipynb)  
 
-This section shows key techniques for improving performance in CNNs using transfer learning, a widely recommended practice (Goodfellow et al., 2016; Géron, 2022). To achieve this, I chose the `MobileNet` and `NASNetMobile` architectures, as they offer the fastest inference times among the `Keras` models available for transfer learning.  
+This section shows key techniques for improving performance in CNNs using transfer learning. To achieve this, I chose the `MobileNet` and `NASNetMobile` architectures, as they offer the fastest inference times among the `Keras` models available for transfer learning.  
 
 However, `MobileNet`, which has the fastest inference time, does not support **32 × 32** images for transfer learning. Therefore, I used `NASNetMobile` instead.  
 
 If the primary objective were to maximize model accuracy, larger architectures like `NASNetLarge` would be preferable, as performance on ImageNet is positively correlated with performance on other datasets when using transfer learning (Kornblith et al., 2019). Another option would be `AutoGluon's AutoMM` (see my notebook [here](https://github.com/alexhubbe/image_classification/blob/main/notebooks/02_ah_autogluon.ipynb)). Additional alternatives can be found [here](https://paperswithcode.com/sota/image-classification-on-cifar-10).  
+
+### **Model Architectures and Training Approaches**  
 
 #### **MobileNet Models**  
 - **No transfer learning** is used.  

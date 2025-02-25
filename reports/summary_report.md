@@ -1,57 +1,61 @@
-# **Project Summary: Detecting Credit Card Fraud with AI**
+# **Project Summary: Deep Learning for Image Classification**
 
 ## **What is This Project About?**  
-This project aimed to **detect fraudulent credit card transactions** using **artificial intelligence (AI)**. By analyzing transaction data, we developed a model that predicts whether a transaction is legitimate or fraudulent.
+This project explores techniques to **improve Convolutional Neural Networks (CNNs)** for **image classification** using the **CIFAR-10 dataset**.
 
 ## **Why Does It Matter?**  
-Accurately detecting credit card fraud helps:  
-✅ **Consumers** – Protect themselves from unauthorized charges.  
-✅ **Banks & Financial Institutions** – Minimize financial losses due to fraud.  
-✅ **Merchants** – Ensure secure transactions and reduce chargeback costs.  
+Improving CNN performance offers benefits for:  
+✅ **Researchers & Developers** – Gain insights into best practices for training CNNs.  
+✅ **AI Applications** – Enhance image recognition tasks in real-world scenarios.  
+✅ **AutoML Users** – Demonstrate the power of automated machine learning solutions.  
 
 ## **What Was Achieved?**  
-🏆 **Improved fraud detection accuracy by up to 30%** by choosing the appropriate data treatment.  
-📈 **Achieved top performance in handling imbalanced datasets**, a key challenge in fraud detection.  
+🏆 **Optimized CNN models through transfer learning and AutoML.**  
+📈 **Reached 99.03% accuracy with AutoGluon's AutoMM in just 30 minutes.**  
+🔍 **Improved generalization** by tuning hyperparameters and applying L2 regularization & dropout.  
 
 ## **How Was It Done?**  
-🔍 **Explored transaction patterns** using a dataset of real credit card transactions.  
-🛠 **Refined the data** by creating a time-based feature.  
-🤖 **Used AI models** such as **Logistic Regression**, **Random Forest**, and **XGBoost** to analyze patterns and predict fraud.  
-🔧 **Optimized models** to further improve their performance.
+📊 **Dataset**: Used the **CIFAR-10 dataset** (60,000 images across 10 classes).  
+🛠 **Transfer Learning**: Utilized **NASNetMobile** for feature extraction and fine-tuning.  
+🤖 **AutoML Approach**: Leveraged **AutoGluon's AutoMM** to automate hyperparameter tuning and model selection.  
+🔧 **Optimization Strategies**: Tuned **batch sizes, learning rates, and model architectures** to maximize performance.  
 
 ## **Key Takeaways**  
-✔️ **Data preprocessing matters** – Adjusting features improves performance.  
-✔️ **Time of transaction influences fraud likelihood** – Identifying patterns in transaction rates enhances predictions.  
+✔️ **Transfer learning accelerates CNN training** – Fine-tuning boosts accuracy.  
+✔️ **AutoML solutions like AutoMM achieve state-of-the-art results** – Minimal effort required.  
+✔️ **Hyperparameter tuning is crucial** – Even small adjustments can significantly impact performance.  
 
 ### **Final Thought**  
-The techniques and capabilities demonstrated can be readily applied to various scenarios involving imbalanced data.
+These techniques can be applied to a wide range of **computer vision tasks**.
 
 # German Version
 
-# **Projektzusammenfassung: Erkennung von Kreditkartenbetrug mit KI**  
+# **Projektzusammenfassung: Deep Learning für Bildklassifikation**
 
 ## **Worum geht es in diesem Projekt?**  
-Dieses Projekt hatte das Ziel, **betrügerische Kreditkartentransaktionen** mithilfe von **Künstlicher Intelligenz (KI)** zu erkennen. Durch die Analyse von Transaktionsdaten haben wir ein Modell entwickelt, das vorhersagt, ob eine Transaktion legitim oder betrügerisch ist.  
+Dieses Projekt untersucht Techniken zur **Verbesserung von Convolutional Neural Networks (CNNs)** für die **Bildklassifikation** mithilfe des **CIFAR-10-Datensatzes**.
 
 ## **Warum ist das wichtig?**  
-Eine präzise Erkennung von Kreditkartenbetrug hilft:  
-✅ **Verbrauchern** – sich vor unautorisierten Abbuchungen zu schützen.  
-✅ **Banken & Finanzinstituten** – finanzielle Verluste durch Betrug zu minimieren.  
-✅ **Händlern** – sichere Transaktionen zu gewährleisten und Rückbuchungskosten zu reduzieren.  
+Die Verbesserung der CNN-Leistung bietet Vorteile für:  
+✅ **Forscher & Entwickler** – Erkenntnisse über Best Practices beim Training von CNNs gewinnen.  
+✅ **KI-Anwendungen** – Bildverarbeitungsaufgaben in realen Szenarien verbessern.  
+✅ **AutoML-Nutzer** – Die Leistungsfähigkeit automatisierter Machine-Learning-Lösungen demonstrieren.  
 
 ## **Was wurde erreicht?**  
-🏆 **Verbesserung der Betrugserkennungsgenauigkeit um bis zu 30%** durch die richtige Datenaufbereitung.  
-📈 **Hervorragende Leistung bei der Verarbeitung unausgewogener Datensätze**, einer zentralen Herausforderung in der Betrugserkennung.  
+🏆 **CNN-Modelle durch Transfer Learning und AutoML optimiert.**  
+📈 **99,03 % Genauigkeit mit AutoGluons AutoMM in nur 30 Minuten erreicht.**  
+🔍 **Generalisierung verbessert** durch Hyperparameter-Tuning sowie L2-Regularisierung & Dropout.  
 
 ## **Wie wurde es gemacht?**  
-🔍 **Analyse von Transaktionsmustern** mit einem Datensatz realer Kreditkartentransaktionen.  
-🛠 **Optimierung der Daten** durch die Erstellung einer zeitbasierten Funktion.  
-🤖 **Einsatz von KI-Modellen** wie **Logistische Regression**, **Random Forest** und **XGBoost**, um Muster zu analysieren und Betrug vorherzusagen.  
-🔧 **Optimierung der Modelle**, um ihre Leistung weiter zu verbessern.  
+📊 **Datensatz**: Der **CIFAR-10-Datensatz** wurde verwendet (60.000 Bilder in 10 Klassen).  
+🛠 **Transfer Learning**: **NASNetMobile** zur Merkmalsextraktion und Feinabstimmung genutzt.  
+🤖 **AutoML-Ansatz**: **AutoGluons AutoMM** zur Automatisierung von Hyperparameter-Tuning und Modellauswahl eingesetzt.  
+🔧 **Optimierungsstrategien**: **Batch-Größen, Lernraten und Modellarchitekturen** angepasst, um die Leistung zu maximieren.  
 
 ## **Wichtige Erkenntnisse**  
-✔️ **Datenvorverarbeitung ist entscheidend** – Die Anpassung von Merkmalen verbessert die Leistung.  
-✔️ **Zeitpunkt der Transaktion beeinflusst die Betrugswahrscheinlichkeit** – Die Identifizierung von Mustern in Transaktionsraten verbessert die Vorhersagen.  
+✔️ **Transfer Learning beschleunigt das CNN-Training** – Feinabstimmung erhöht die Genauigkeit.  
+✔️ **AutoML-Lösungen wie AutoMM liefern Spitzenleistungen** – mit minimalem Aufwand.  
+✔️ **Hyperparameter-Tuning ist entscheidend** – Selbst kleine Anpassungen können die Leistung erheblich beeinflussen.  
 
-### **Fazit**  
-Die gezeigten Techniken und Methoden können problemlos auf verschiedene Szenarien mit unausgewogenen Daten angewendet werden.  
+### **Abschließender Gedanke**  
+Diese Techniken lassen sich auf eine Vielzahl von **Computer-Vision-Aufgaben** anwenden.

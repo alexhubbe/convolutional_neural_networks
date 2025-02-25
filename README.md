@@ -2,7 +2,7 @@
 
 [Go to German Version](#german-version)
 
-**Convolutional neural networks (CNNs)** have revolutionized the field of computer vision, enabling applications ranging from image segmentation and object recognition to more complex tasks like detecting diseases such as cancer in medical images (LeCun et al., 2015; Kumar et al., 2024). See the summary report [here]().
+**Convolutional neural networks (CNNs)** have revolutionized the field of computer vision, enabling applications ranging from image segmentation and object recognition to more complex tasks like detecting diseases such as cancer in medical images (LeCun et al., 2015; Kumar et al., 2024). See the summary report [here](https://github.com/alexhubbe/convolutional_neural_networks/blob/main/reports/summary_report.md).
 
 This repository showcases key techniques for improving CNN performance using the **[CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)** dataset—a collection of 60,000 32×32 color images across 10 classes (Figure 1). 
 
@@ -138,9 +138,7 @@ Submit issues for:
 
 # Convolutional Neural Network
 
-[Zur deutschen Version](#german-version)
-
-**Convolutional Neural Networks (CNNs)** haben das Feld der Computer Vision revolutioniert und ermöglichen Anwendungen von Bildsegmentierung und Objekterkennung bis hin zu komplexeren Aufgaben wie der Erkennung von Krankheiten wie Krebs in medizinischen Bildern (LeCun et al., 2015; Kumar et al., 2024). Siehe den Zusammenfassungsbericht [hier]().
+**Convolutional Neural Networks (CNNs)** haben das Feld der Computer Vision revolutioniert und ermöglichen Anwendungen von Bildsegmentierung und Objekterkennung bis hin zu komplexeren Aufgaben wie der Erkennung von Krankheiten wie Krebs in medizinischen Bildern (LeCun et al., 2015; Kumar et al., 2024). Siehe den Zusammenfassungsbericht [hier](https://github.com/alexhubbe/convolutional_neural_networks/blob/main/reports/summary_report.md).
 
 Dieses Repository zeigt Schlüsseltechniken zur Verbesserung der CNN-Leistung unter Verwendung des **[CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)**-Datensatzes – einer Sammlung von 60.000 32×32 Farbbildern in 10 Klassen (Abbildung 1).
 

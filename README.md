@@ -1,6 +1,6 @@
 # Convolutional Neural Network 
 
-[🇩🇪 Deutsche Version]((#german-version)
+[🇩🇪 Deutsche Version](#german-version)
 
 **Convolutional neural networks (CNNs)** have revolutionized the field of computer vision, enabling applications ranging from image segmentation and object recognition to more complex tasks like detecting diseases such as cancer in medical images (LeCun et al., 2015; Kumar et al., 2024). See the summary report [here](https://github.com/alexhubbe/convolutional_neural_networks/blob/main/reports/summary_report.md).
 
